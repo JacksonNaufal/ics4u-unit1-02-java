@@ -48,7 +48,6 @@ final class AlbertCalculator {
             final float mass = myObj.nextFloat();
             System.out.println("Energy Outputted is: "
                 + (mass * Math.pow(ALBERT, 2)));
-            System.out.println("\nDone.");
         } catch (java.util.InputMismatchException ex) {
             System.out.println("Invalid Input!");
         } finally {
